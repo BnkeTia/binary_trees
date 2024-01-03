@@ -7,7 +7,6 @@
  * Return: the new node
  */
 
-/*Function to create new binary tree node*/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	/*declare name of variable new node*/
