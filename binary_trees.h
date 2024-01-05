@@ -53,12 +53,15 @@ void binary_tree_print(const binary_tree_t *tree);
 /*Function prototypes of helper functions */
 int exponent(int x, int y);
 size_t binary_tree_height(const binary_tree_t *tree);
+void binary_tree_level(const binary_tree_t *tree, size_t i,
+		void (*func)(int));
+
 
 /* Function prototypes of Advanced tasks */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_complete(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
-
+size_t binary_tree_height(const binary_tree_t *tree);
 
 #endif /*BISKIT_BINARY_TREE_H*/
