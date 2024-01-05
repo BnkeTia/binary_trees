@@ -8,6 +8,7 @@
  */
 bst_t *bst_insert(bst_t **tree, int value)
 {
+	/* Initialize trav pointer variable to traverse the tree */
 	bst_t *trav = NULL, *temp = NULL, *newN = NULL;
 
 	if (!tree)
