@@ -64,6 +64,9 @@ void binary_tree_level(const binary_tree_t *tree, size_t i,
 		void (*func)(int));
 int binary_tree_lev(const binary_tree_t *tree, size_t index, size_t size);
 int bst(const binary_tree_t *tree, int min, int max);
+int remove_children(bst_t *root);
+int children(bst_t *root);
+int next_in_order(bst_t *node);
 
 /* Function prototypes of Advanced tasks */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);

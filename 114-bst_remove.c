@@ -1,8 +1,5 @@
 #include "binary_trees.h"
 
-int remove_children(bst_t *root);
-int children(bst_t *root);
-int next_in_order(bst_t *node);
 
 /**
  * bst_remove - A function that removes a node from a Binary Search tree
