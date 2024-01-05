@@ -93,7 +93,7 @@ int children(bst_t *root)
 /**
  * next_in_order - A function that finds and replace a node with next its
  * successor
- * @node: The targeted tree 
+ * @node: The targeted tree
  * Return: min node value of tree
  */
 int next_in_order(bst_t *node)
